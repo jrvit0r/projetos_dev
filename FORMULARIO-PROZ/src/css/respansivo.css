@@ -1,0 +1,68 @@
+@media only screen and (max-width: 900px) {
+  .card {
+    width: 80%;
+  }
+  .cabecalho,
+  .home {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .card {
+    width: 85%;
+  }
+  .cabecalho,
+  .home {
+    width: 90%;
+  }
+  .cabecalho .logo {
+    padding: 10px;
+    width: 180px;
+  }
+
+  main .apresentacao h1 {
+    font-size: 30px;
+  }
+
+  main .apresentacao p {
+    font-size: 18px;
+  }
+
+  .cabecalho nav li a {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+    width: 95%;
+  }
+  .cabecalho,
+  .home {
+    width: 100%;
+  }
+  .cabecalho .logo {
+    padding: 10px;
+    width: 150px;
+  }
+
+  main .apresentacao h1 {
+    font-size: 25px;
+  }
+
+  main .apresentacao p {
+    font-size: 14px;
+  }
+
+  .cabecalho nav li a {
+    font-size: 16px;
+  }
+
+  .input_telefone {
+    width: 70%;
+  }
+  .input_ddd {
+    width: 20%;
+  }
+}

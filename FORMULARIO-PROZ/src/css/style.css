@@ -1,0 +1,210 @@
+body {
+  font-family: "Poppins";
+  width: 100%;
+  height: 100%;
+  background-color: #3e2181;
+}
+
+.card {
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cabecalho {
+  width: 75%;
+  height: 15%;
+  margin: 0 auto;
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+.cabecalho .logo {
+  padding: 10px;
+  width: 220px;
+}
+
+.cabecalho .menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.cabecalho nav li a {
+  background-color: #531da9;
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  border: none;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: 0.2s;
+  text-transform: uppercase;
+  pointer-events: painted;
+}
+
+.cabecalho nav li a:hover {
+  background-color: #703cc3;
+  box-shadow: 20px 15px 50px -15px #380f77;
+}
+
+.home {
+  width: 75%;
+  height: 85%;
+  margin: 0 auto;
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  border-top: 3px solid #e6e6e6;
+}
+
+main .formulario {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 20px 20px 20px;
+  border-radius: 40px;
+  border: none;
+  color: #531da9;
+}
+
+main .apresentacao {
+  padding: 0px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+main .apresentacao h1 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+main .apresentacao p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.input_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 5px 0px;
+}
+
+.label_input {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #531da9;
+  margin-bottom: 10px;
+}
+
+.input_user {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #e9e9e9de;
+  color: #927fb3;
+}
+
+.input_box .input_box_radio {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 5px;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #e9e9e9de;
+  color: #927fb3;
+}
+
+.input_box .input_box_radio .opcao {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.input_box_celular {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
+
+.input_ddd {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 5px 0px;
+}
+
+.input_telefone {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0px;
+}
+
+.input_box_telefone {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 5px 0px;
+}
+
+.input_box .input_user::placeholder,
+.input_ddd .input_user::placeholder,
+.input_telefone .input_user::placeholder {
+  color: #927fb3;
+}
+
+main .btn_submit {
+  width: 100%;
+  padding: 16px 0px;
+  margin: 20px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: white;
+  background: #531da9;
+  cursor: pointer;
+}
+
+main .btn_submit:hover {
+  background-color: #904cff;
+  box-shadow: 20px 15px 50px -15px #5d2892;
+}

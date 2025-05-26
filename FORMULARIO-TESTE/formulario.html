@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./src/css/style_formulario.css" />
+
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat%3A100%2C200%2C300%2C400%2C500%2C600%2C700%7CPoppins%3A300%2C400%2C600%2C700%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CIBM%20Plex%20Sans%3Awght%40400%3B600&amp;display=swap"
+    />
+
+    <title>Formulário</title>
+  </head>
+  <body>
+    <div class="box">
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Formulário de Cliente</legend>
+          <br />
+          <div class="input_box">
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              class="input_user"
+              required
+            />
+            <label for="nome" class="label_input">Nome Completo</label>
+          </div>
+
+          <br /><br />
+
+          <div class="input_box">
+            <input
+              type="text"
+              name="email"
+              id="email"
+              class="input_user"
+              required
+            />
+            <label for="email" class="label_input">Email</label>
+          </div>
+
+          <br /><br />
+
+          <div class="input_box">
+            <input
+              type="tel"
+              name="telefone"
+              id="telefone"
+              class="input_user"
+              required
+            />
+            <label for="nome" class="label_input">Telefone</label>
+          </div>
+
+          <p>Sexo:</p>
+
+          <input type="radio" id="sexo_m" name="genero" required value="M" />
+          <label for="mas">Masculino</label>
+          <br />
+          <input type="radio" id="sexo_f" name="genero" required value="F" />
+          <label for="fem">Feminino</label>
+          <br />
+          <input type="radio" id="sexo_out" name="genero" required value="I" />
+          <label for="outro">Outro</label>
+
+          <br /><br />
+
+          <div class="input_box">
+            <label for="data_nacimento">Data de Nacimento:</label>
+            <input
+              type="date"
+              name="data_nacimento"
+              id="data_nacimento"
+              required
+            />
+          </div>
+
+          <br /><br />
+
+          <div class="input_box">
+            <input
+              type="text"
+              name="cidade"
+              id="cidade"
+              class="input_user"
+              required
+            />
+            <label for="cidade" class="label_input">Cidade</label>
+          </div>
+
+          <br /><br />
+
+          <div class="input_box">
+            <input
+              type="text"
+              name="estado"
+              id="estado"
+              class="input_user"
+              required
+            />
+            <label for="estado" class="label_input">Estado</label>
+          </div>
+
+          <br /><br />
+
+          <div class="input_box">
+            <input
+              type="text"
+              name="endereco"
+              id="endereco"
+              class="input_user"
+              required
+            />
+            <label for="endereco" class="label_input">Endereco</label>
+          </div>
+
+          <br /><br />
+          <input type="submit" name="submit" id="submit" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
